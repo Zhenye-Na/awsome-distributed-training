@@ -10,11 +10,9 @@ from torch import optim
 import torch.distributed as dist
 import torch.utils.data
 
-from transformers import AutoModelForCausalLM, AutoTokenizer
-from datasets import load_dataset
+from transformers import AutoModelForCausalLM
 
 from torch.distributed.fsdp import fully_shard, MixedPrecisionPolicy, CPUOffloadPolicy
-from torch.utils.data import DataLoader
 
 from model_utils.train_utils import (get_model_config, 
                                    compute_num_params,

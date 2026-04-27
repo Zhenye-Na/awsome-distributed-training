@@ -1,7 +1,5 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import numpy as np
-import seaborn as sns
 
 # Read CSV
 all_reduce_df = pd.read_csv('./all_reduce.csv')

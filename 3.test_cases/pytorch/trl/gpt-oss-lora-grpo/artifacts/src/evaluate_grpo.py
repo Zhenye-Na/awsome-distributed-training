@@ -288,7 +288,7 @@ def load_grpo_model(base_model: str, sft_checkpoint: str, grpo_checkpoint: str):
     
     Chain: Base model → Merge SFT LoRA → Load GRPO LoRA
     """
-    from transformers import AutoModelForCausalLM, AutoTokenizer, GenerationConfig
+    from transformers import AutoModelForCausalLM, AutoTokenizer
     from peft import PeftModel
     
     print(f"Loading base model: {base_model}")

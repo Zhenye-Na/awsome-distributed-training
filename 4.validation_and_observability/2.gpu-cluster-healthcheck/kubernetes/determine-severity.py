@@ -9,7 +9,6 @@ lib/aggregate-results.py.
 import glob
 import json
 import os
-import sys
 
 SEVERITY_PRIORITY = {
     "ISOLATE": 4,

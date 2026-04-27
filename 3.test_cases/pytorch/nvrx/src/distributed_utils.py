@@ -20,11 +20,9 @@ Usage in training scripts::
 import os
 import sys
 import logging
-import functools
 import gc
 
 import torch
-import torch.distributed as dist
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from datasets import load_dataset, load_from_disk
 

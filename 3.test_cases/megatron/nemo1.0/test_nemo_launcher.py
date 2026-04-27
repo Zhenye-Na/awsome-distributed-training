@@ -1,5 +1,3 @@
-import pytest
-import os
 
 
 def test_0_aws_nemo_megatron(docker_build, docker_run):

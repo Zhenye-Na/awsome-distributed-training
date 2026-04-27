@@ -17,8 +17,6 @@ from datasets import load_dataset
 
 from model_utils.concat_dataset import ConcatTokensDataset
 
-from transformers import LlamaForCausalLM, LlamaTokenizer, LlamaConfig
-from transformers.models.llama.modeling_llama import LlamaDecoderLayer
 
 g_gigabyte = 1024**3
 

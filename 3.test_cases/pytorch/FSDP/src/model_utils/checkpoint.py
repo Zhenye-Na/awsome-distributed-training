@@ -3,7 +3,6 @@
 
 import os
 import re
-import warnings
 from pathlib import Path
 
 import torch
@@ -13,7 +12,6 @@ from torch.distributed.checkpoint.state_dict import (
     get_optimizer_state_dict,
     set_model_state_dict,
     set_optimizer_state_dict,
-    StateDictOptions,
 )
 import torch.distributed.checkpoint as dist_cp
 from model_utils.train_utils import get_logger

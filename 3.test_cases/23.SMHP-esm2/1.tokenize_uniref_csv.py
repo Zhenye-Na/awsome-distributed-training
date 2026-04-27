@@ -4,7 +4,6 @@ from itertools import chain
 import logging
 import os
 import transformers
-from urllib.parse import urlparse
 
 logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s",

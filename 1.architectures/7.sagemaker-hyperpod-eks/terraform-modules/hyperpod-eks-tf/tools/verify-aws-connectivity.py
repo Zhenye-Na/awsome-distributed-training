@@ -9,9 +9,8 @@ for HyperPod EKS deployment in closed network environments.
 import boto3
 import socket
 import sys
-import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from typing import List, Tuple, Dict
+from typing import Dict, Tuple
 
 def get_aws_region() -> str:
     """Get the current AWS region from boto3 session."""

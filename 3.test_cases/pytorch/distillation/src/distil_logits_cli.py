@@ -7,7 +7,7 @@ import argparse
 import json
 import yaml
 from datasets import load_dataset
-from trl import SFTTrainer, SFTConfig
+from trl import SFTTrainer
 from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments
 
 def parse_arguments():

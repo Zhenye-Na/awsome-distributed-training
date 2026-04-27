@@ -1,5 +1,4 @@
 #!/usr/bin/env  python3
-import pytest
 import os
 
 def test_img_megatron_training(docker_build, docker_run):

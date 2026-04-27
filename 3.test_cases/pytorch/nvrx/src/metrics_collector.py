@@ -7,8 +7,6 @@ import os
 import time
 import json
 import logging
-from datetime import datetime
-from collections import defaultdict
 
 logger = logging.getLogger(__name__)
 

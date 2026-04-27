@@ -1,7 +1,6 @@
 import json
 from peft import LoraConfig, PeftModel
 from transformers import AutoModelForCausalLM
-import torch
 import argparse
 from safetensors import safe_open
 

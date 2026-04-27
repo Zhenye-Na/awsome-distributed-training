@@ -1,8 +1,5 @@
-import os
-import shutil
 import argparse
 import subprocess
-import socket
 
 
 def stop_observability(node_type):

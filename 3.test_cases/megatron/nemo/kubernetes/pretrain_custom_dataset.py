@@ -1,16 +1,12 @@
-import signal
 import nemo_run as run
 import json
 import argparse
-import math
 import os
 from datetime import datetime
 from functools import partial
-from typing import Any, Optional
+from typing import Optional
 from nemo.collections import llm
 from nemo.collections.nlp.modules.common.tokenizer_utils import get_nmt_tokenizer
-from nemo.utils import logging
-from datasets import load_dataset
 
 # python pretrain.py --max_steps 200 --nodes 1 --gpus L40S --gpu-devices 8 --container_image nvcr.io/nvidia/nemo:24.12 --env_vars_file env_vars.json --pvc_name fsx-claim --pvc_mount_path /mnt/nemo
 

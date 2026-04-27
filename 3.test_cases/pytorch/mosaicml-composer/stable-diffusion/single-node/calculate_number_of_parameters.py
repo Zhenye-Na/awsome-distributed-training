@@ -3,14 +3,10 @@
 import composer
 import torch
 import torch.nn.functional as F
-from composer.utils import dist, reproducibility
 from diffusers import AutoencoderKL, DDPMScheduler, UNet2DConditionModel
-from torch.utils.data import DataLoader
-from torchvision import transforms
 from transformers import CLIPTextModel
 
 try:
-    import xformers
     is_xformers_installed = True
 except:
     is_xformers_installed = False

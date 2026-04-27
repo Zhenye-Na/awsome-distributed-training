@@ -6,10 +6,7 @@ Test suite for hostfile-topologify.py script
 import pytest
 import tempfile
 import os
-import sys
-import importlib.util
-import time
-from unittest.mock import Mock, patch, MagicMock
+from unittest.mock import Mock, patch
 from io import StringIO
 
 # Import the module under test

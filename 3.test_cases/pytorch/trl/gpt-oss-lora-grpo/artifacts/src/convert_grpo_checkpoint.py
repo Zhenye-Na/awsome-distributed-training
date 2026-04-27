@@ -15,7 +15,6 @@ Usage:
 import os
 import shutil
 import argparse
-import json
 from safetensors.torch import load_file, save_file
 import torch
 

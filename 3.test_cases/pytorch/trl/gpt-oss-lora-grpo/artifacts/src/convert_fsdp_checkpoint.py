@@ -14,7 +14,6 @@ import os
 import json
 import torch
 from torch.distributed.checkpoint import FileSystemReader
-from torch.distributed.checkpoint.metadata import Metadata
 from tqdm import tqdm
 
 

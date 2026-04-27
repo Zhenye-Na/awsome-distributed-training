@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 
 import boto3
-from grafana_client import GrafanaApi, HeaderAuth, TokenAuth
+from grafana_client import GrafanaApi, TokenAuth
 from grafanalib._gen import DashboardEncoder
-from grafanalib.core import Dashboard
 import json
 from typing import Dict
 import urllib.request

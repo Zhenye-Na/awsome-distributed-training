@@ -29,8 +29,6 @@ os.environ.setdefault("NCCL_NVLS_ENABLE", "0")
 
 import torch
 import torch.distributed as dist
-from torch.distributed.fsdp import FullyShardedDataParallel as FSDP
-from torch.distributed.fsdp import StateDictType
 
 try:
     from nvidia_resiliency_ext.checkpointing.local.ckpt_managers.local_manager import (

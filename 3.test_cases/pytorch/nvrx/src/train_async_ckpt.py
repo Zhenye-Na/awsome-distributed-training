@@ -8,10 +8,8 @@ Supports both FSDP and DDP via --parallel_strategy flag.
 
 import gc
 import os
-import sys
 import time
 import argparse
-import logging
 
 import torch
 import torch.distributed as dist
@@ -35,7 +33,6 @@ from distributed_utils import (
     wrap_model,
     create_dataloader,
     train_step,
-    save_checkpoint as save_checkpoint_sync,
     setup_logging,
 )
 from metrics_collector import MetricsCollector

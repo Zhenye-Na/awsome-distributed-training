@@ -2,7 +2,6 @@
 # SPDX-License-Identifier: MIT-0
 
 import argparse
-import os
 
 
 def parse_args():  # pylint: disable=too-many-statements
